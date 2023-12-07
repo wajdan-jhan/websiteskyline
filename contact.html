@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .contact-form {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 600px;
+        /* padding: 3rem; */
+        border: 0.5px solid gray;
+        text-align: center;
+        margin-bottom: 4rem;
+        display: grid;
+        justify-content: center;
+      }
+
+      .contact-info {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        margin-bottom: 15px;
+      }
+
+      .contact-info i {
+        font-size: 2rem; /* Adjusted font size */
+        margin-right: 10px;
+        color: #3498db;
+      }
+
+      .contact-info p {
+        margin: 0;
+        line-height: 1.5;
+        font-size: 1.5rem; /* Adjusted font size */
+        color: rgb(52, 51, 51);
+        letter-spacing: 0.2rem;
+      }
+
+      .contact-form h2 {
+        color: #333;
+      }
+      .title {
+        font-size: 3rem;
+        font-weight: 1000;
+      }
+      .text-effect {
+        -webkit-text-fill-color: transparent;
+        color: #000;
+        -webkit-text-stroke-width: 2px;
+      }
+    </style>
+    <title>Contact</title>
+  </head>
+  <body>
+    <div class="contact-form">
+      <h2 class="title">Contact <span class="text-effect">Form</span></h2>
+
+      <div class="contact-info">
+        <i class="fas fa-envelope"></i>
+        <p>email@email.com</p>
+      </div>
+
+      <div class="contact-info">
+        <i class="fas fa-map-marker-alt"></i>
+        <p>Your Location</p>
+      </div>
+
+      <div class="contact-info">
+        <i class="fas fa-phone"></i>
+        <p>+1 (123) 456-7890</p>
+      </div>
+    </div>
+  </body>
+</html>
